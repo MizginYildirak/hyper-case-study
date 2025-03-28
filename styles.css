@@ -177,7 +177,6 @@ body {
 .right_base_content {
   flex: 1;
   height: 100%;
-  background-color: red;
 }
 
 .left_content_sidebar {
@@ -193,13 +192,17 @@ body {
 .left_content_sidebar ol li img {
   width: 57px;
   height: 57px;
-  
 }
 
 .featured_image {
-  width: 100%; 
+  width: 100%;  
+  height: auto; /
+  display: block;
 }
 
 .featured_image img {
   width: 100%;
+  height: auto; 
+  object-fit: cover; 
+  display: block;
 }
