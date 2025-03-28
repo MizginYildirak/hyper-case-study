@@ -210,3 +210,33 @@ body {
   display: block;
   filter: none;
 }
+
+.review_section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.review_section, .review_star_feedback, .review_stars {
+  display: flex;
+  align-items: center;
+}
+
+.review_star_feedback {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.review_stars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.confirm_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px
+}
