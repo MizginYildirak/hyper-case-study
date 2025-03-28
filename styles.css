@@ -168,6 +168,10 @@ body {
   display: flex;
 }
 
+.left_product_content {
+  display: flex;
+}
+
 .left_base_content,
 .right_base_content {
   flex: 1;
@@ -177,17 +181,24 @@ body {
 
 .left_content_sidebar {
   width: 62px;
-  max-height: 513px;
-  overflow-y: auto;
-
 }
 
 .left_content_sidebar ol{
-  height: 100%;
+  overflow-y: auto;
+  max-height: 500px;
+  scrollbar-width: none; 
 } 
 
 .left_content_sidebar ol li img {
   width: 57px;
   height: 57px;
+  
 }
 
+.featured_image {
+  width: 100%; 
+}
+
+.featured_image img {
+  width: 100%;
+}
