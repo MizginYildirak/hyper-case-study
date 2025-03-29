@@ -221,9 +221,12 @@ body {
   overflow-y: auto;
   max-height: 550px;
   scrollbar-width: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
-.left_content_sidebar ol li img {
+.left_content_sidebar ol li, img {
   width: 57px;
   height: 57px;
 }
