@@ -23,6 +23,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 52px;
 }
 
 .header_content {
@@ -31,8 +32,25 @@ body {
   align-items: center;
   background-color: black;
   color: white;
-  height: 52px;
+  height: 100%;
   width: 100%;
+}
+
+.slider {
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+
+.slide {
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
 }
 
 .header_item {
@@ -190,7 +208,7 @@ body {
 
 .left_content_sidebar ol {
   overflow-y: auto;
-  max-height: 500px;
+  max-height: 550px;
   scrollbar-width: none;
 }
 
