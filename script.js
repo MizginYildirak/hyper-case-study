@@ -1,13 +1,13 @@
 $(document).ready(function(){
     $('.slider').slick({
-        vertical: true, // Dikey kaydırma aktif
-        verticalSwiping: false, // Yukarı kaydırma için dokunmatik destek
+        vertical: true, 
+        verticalSwiping: false, 
         slidesToShow: 1,
         slidesToScroll: 1,
         infinite: true,
-        autoplay: true, // Otomatik kaydırma
+        autoplay: true,
         autoplaySpeed: 5000,
-        arrows: false, // Okları kaldır
+        arrows: false, 
         dots: false
     });
 });
