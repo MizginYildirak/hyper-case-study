@@ -447,5 +447,17 @@ body {
   color: #fff;
   background-color: #fb7701;
   border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
+}
+
+.order_badge {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.discount_badge {
+  font-size: 12px;
 }
