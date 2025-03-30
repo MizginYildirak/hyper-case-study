@@ -556,8 +556,12 @@ body {
   outline: none;
 }
 
+.arrow_button {
+  
+}
+
 .number_list {
-  display: block;
+  display: none;
   position: absolute;
   top: 28px;
   left: 0;
