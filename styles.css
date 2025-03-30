@@ -556,8 +556,16 @@ body {
   outline: none;
 }
 
-.arrow_button {
-  
+.arrow-button-active {
+  color: white; 
+  transform: rotate(180deg);
+  transition: all 0.3s ease; 
+}
+
+.number_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .number_list {

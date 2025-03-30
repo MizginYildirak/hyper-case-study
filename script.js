@@ -19,6 +19,7 @@ document.querySelectorAll(".number_item").forEach((item) => {
     document.querySelectorAll(".number_item svg").forEach((svg) => {
       svg.remove();
     });
+    arrowButton.classList.toggle("arrow-button-active");
 
     if (!item.querySelector(".tick")) {
       let tick = document.createElementNS("http://www.w3.org/2000/svg", "svg");
@@ -41,6 +42,7 @@ document.querySelectorAll(".number_item").forEach((item) => {
 });
 
 arrowButton.addEventListener("click", () => {
+  arrowButton.classList.toggle("arrow-button-active");
   numberList.style.display =
     numberList.style.display === "block" ? "none" : "block";
 });
