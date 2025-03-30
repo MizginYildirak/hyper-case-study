@@ -105,12 +105,12 @@ body {
   align-items: center;
   gap: 4px;
   cursor: pointer;
-  padding: 10px; 
+  padding: 10px;
   box-sizing: border-box;
 }
 
 .nav_category:hover {
-  padding: 10px; 
+  padding: 10px;
   background-color: #f2f6f5;
   border-radius: 40px;
   transition: padding 0.5s ease;
@@ -392,15 +392,15 @@ body {
 }
 
 .sold_amount {
-  color:#7b7676
+  color: #7b7676
 }
 
 .divider {
-  width: 1px; 
-  height: 12px; 
+  width: 1px;
+  height: 12px;
   background-color: #7b7676;
   margin: 0 4px;
-  display: inline-block; /
+  display: inline-block;/
 }
 
 .seller_badge {
@@ -522,6 +522,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 /* 
 .product_image {
   background-color: #222;
@@ -535,13 +536,14 @@ body {
 }
 
 .quantity_input {
-  border: 1px solid #7b7676;
+  border: 1px solid #c1bcbc;
   padding: 2px 10px;
   height: 100%;
   border-radius: 5px;
   display: flex;
   align-items: center;
   cursor: pointer;
+  position: relative;
 }
 
 .quantity_input input {
@@ -552,6 +554,24 @@ body {
   height: 100%;
   padding: 2px;
   outline: none;
+}
+
+.number_list {
+  display: block;
+  position: absolute;
+  top: 28px;
+  left: 0;
+  border: 1px solid #c1bcbc;
+  width: 100%;
+  border-radius: 5px;
+}
+.number_list div {
+  padding: 5px 10px;
+  background-color: white;
+}
+
+.number_list div:hover {
+  background-color: #f5f2f2;
 }
 
 .cart_action {
