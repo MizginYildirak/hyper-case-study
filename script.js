@@ -1,13 +1,11 @@
-$(document).ready(function(){
-    $('.slider').slick({
-        vertical: true, 
-        verticalSwiping: false, 
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        infinite: true,
-        autoplay: true,
-        autoplaySpeed: 5000,
-        arrows: false, 
-        dots: false
-    });
+const thumbnails = document.querySelectorAll(".thumb");
+const bigImage = document.querySelector(".bigImage");
+const featuredImage = document.querySelector(".featured_image");
+
+thumbnails.forEach((thumb) => {
+  thumb.addEventListener("click", () => {
+    const newSrc = thumb.getAttribute("data-full");
+    bigImage.src = newSrc;
+  });
 });
+
