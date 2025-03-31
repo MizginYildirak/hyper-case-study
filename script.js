@@ -46,3 +46,4 @@ arrowButton.addEventListener("click", () => {
   numberList.style.display =
     numberList.style.display === "block" ? "none" : "block";
 });
+
