@@ -1,6 +1,6 @@
 const thumbnails = document.querySelectorAll(".thumb");
-const bigImage = document.querySelector(".bigImage");
-const featuredImage = document.querySelector(".featured_image");
+const bigImage = document.querySelector("#main-product-image");
+const featuredImage = document.querySelector(".main-image-wrapper");
 const arrowButton = document.querySelector(".arrow_button");
 const numberList = document.querySelector(".number_list");
 
@@ -27,7 +27,7 @@ document.querySelectorAll(".number_item").forEach((item) => {
       tick.setAttribute("width", "16");
       tick.setAttribute("height", "16");
       tick.setAttribute("aria-hidden", "true");
-      tick.classList.add("tick"); 
+      tick.classList.add("tick");
 
       let path = document.createElementNS("http://www.w3.org/2000/svg", "path");
       path.setAttribute(
@@ -36,8 +36,8 @@ document.querySelectorAll(".number_item").forEach((item) => {
       );
 
       tick.appendChild(path);
-      item.appendChild(tick); 
-    }  
+      item.appendChild(tick);
+    }
   });
 });
 
@@ -46,4 +46,3 @@ arrowButton.addEventListener("click", () => {
   numberList.style.display =
     numberList.style.display === "block" ? "none" : "block";
 });
-

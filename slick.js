@@ -19,4 +19,14 @@ $(document).ready(function () {
     infinite: false,
     horizontalswiping: true,
   });
+
+  $(".image-slider").slick({
+    vertical: true,
+    verticalSwiping: false,
+    slidesToShow: 11,
+    slidesToScroll: 1,
+    infinite: false,
+    arrows: false,
+    dots: false,
+  });
 });
