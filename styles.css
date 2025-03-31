@@ -345,7 +345,6 @@ body {
   opacity: 0.8;
 }
 
-/* Ana Ürün Resmi */
 .main-image-container {
   flex: 1;
   padding-top: 0;
@@ -807,6 +806,10 @@ body {
 
   .base_product_content {
     flex-direction: column !important;
+  }
+
+  .left_content_sidebar {
+    display: none;
   }
 
   .header {
