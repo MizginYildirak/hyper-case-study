@@ -355,7 +355,7 @@ body {
 
 .main-image-wrapper {
   position: relative;
-  height: 0;
+  height: 100%;
   padding-bottom: 100%;
   width: 100%;
 }
@@ -366,7 +366,6 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: contain;
 }
 
 
