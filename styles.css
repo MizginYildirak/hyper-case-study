@@ -499,7 +499,8 @@ body {
 }
 
 .sold_amount {
-  color: #7b7676
+  color: #7b7676;
+  white-space: nowrap;
 }
 
 .divider {
@@ -783,6 +784,8 @@ body {
     font-size: 12px;
   }
 
+
+
   .best_sellers {
     display: none;
   }
@@ -801,6 +804,10 @@ body {
 
   .header_line {
     height: 25px;
+  }
+
+  .nav_text h5 {
+    display: none;
   }
 
   .base_product_content {
@@ -823,6 +830,10 @@ body {
 
   .container {
     padding: 0 10px;
+  }
+
+  .nav_text h5 {
+    display: none;
   }
 
   .arrow_right {
@@ -853,6 +864,37 @@ body {
   }
 
   .navbar {
+    display: none;
+  }
+
+  .right_base_content {
+    padding: 0px 15px 10px 15px;
+  }
+
+  .review_section {
+    flex-direction: column;
+
+  }
+
+  .review_content {
+    padding: 0 15px;
+  }
+
+  .review_section, .review_stars {
+    align-items: flex-start;
+  }
+
+  .confirm_section {
+    width: 100%;
+    justify-content: flex-start;
+    background-color: #ecffeb;;
+  }
+
+  .breadcrumb_nav {
+    display: none;
+  }
+
+  .seller_tag_container {
     display: none;
   }
 }
