@@ -9,7 +9,9 @@ $(document).ready(function () {
     autoplaySpeed: 5000,
     arrows: false,
     dots: false,
+
   });
+
 
   $(".featured_image").slick({
     slidesToShow: 1,
@@ -19,4 +21,6 @@ $(document).ready(function () {
     infinite: false,
     horizontalswiping: true,
   });
+
+
 });
