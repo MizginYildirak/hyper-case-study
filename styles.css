@@ -470,6 +470,7 @@ body {
   display: flex;
   justify-content: flex-start;
   height: 50px;
+  margin: 10px 0;
 }
 
 .sort_buttons_container {
@@ -533,6 +534,22 @@ body {
   background-color: #7b7676;
   margin: 0 4px;
   display: inline-block;/
+}
+
+.comment_section {
+  margin-top: 10px;
+}
+
+.commenter_info {
+  gap: 5px;
+}
+
+.commenter_info span {
+  color: #aaa;
+}
+
+.commenter_stars {
+  margin: 5px 0;
 }
 
 .seller_badge {
@@ -798,6 +815,17 @@ body {
   align-items: center;
   gap: 5px;
   flex-wrap: wrap;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-start {
+  display: flex;
+  align-items: center;
 }
 
 .shipping_info {
