@@ -1,0 +1,56 @@
+@media only screen and (max-width: 572px) {
+  .header {
+    visibility: hidden;
+    height: 0;
+  }
+
+  .navigation_bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+  }
+
+  .navbar,
+  .breadcrumb_nav,
+  .seller_tag_container {
+    display: none;
+  }
+
+  .right_base_content {
+    padding: 0px 15px 10px 15px;
+  }
+
+  .review_section {
+    flex-direction: column;
+  }
+
+  .review_content {
+    padding: 0 15px;
+  }
+
+  .review_section,
+  .review_stars {
+    align-items: flex-start;
+  }
+
+  .confirm_section {
+    width: 100%;
+    justify-content: flex-start;
+    background-color: var(--bg-secondary-color);
+    ;
+  }
+
+  .cart_action {
+    position: fixed;
+    bottom: 0;
+    left: 15px;
+    right: 15px;
+    width: calc(100% - 30px);
+  }
+
+  .cart_action:hover {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

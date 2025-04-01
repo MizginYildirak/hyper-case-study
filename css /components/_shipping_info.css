@@ -1,0 +1,29 @@
+.shipping_info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 32px;
+}
+
+.shipping_info span {
+    color: var(--text-muted);
+}
+
+.shipping_info img {
+    width: 20px;
+}
+
+.shipping_line {
+    height: 1px;
+    width: 100%;
+    margin: 11px;
+    background-color: var(--border-color);
+}
+
+.shipping_title {
+    color: var(--secondary-color) !important;
+}
+
+.shipping_space {
+    margin-left: 22px;
+}

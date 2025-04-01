@@ -1,19 +1,30 @@
 const thumbnails = document.querySelectorAll(".thumb");
-const bigImage = document.querySelector(".bigImage");
-const featuredImage = document.querySelector(".featured_image");
+const bigImage = document.querySelector("#main-product-image");
+const featuredImage = document.querySelector(".main-image-wrapper");
 const arrowButton = document.querySelector(".arrow_button");
 const numberList = document.querySelector(".number_list");
+const cartActionBtn = document.querySelector(".cart_action");
+const basket = document.querySelector(".basket");
+const amount = document.querySelector("#amount");
+
+let prevBasketValue = 0;
 
 thumbnails.forEach((thumb) => {
   thumb.addEventListener("click", () => {
     const newSrc = thumb.getAttribute("data-full");
     bigImage.src = newSrc;
+
+    thumbnails.forEach((otherThumb) => {
+      otherThumb.style.border = "";
+    });
+
+    thumb.style.border = "2px solid black";
   });
 });
 
 document.querySelectorAll(".number_item").forEach((item) => {
   item.addEventListener("click", () => {
-    document.getElementById("amount").value = item.textContent;
+    amount.value = item.textContent;
     numberList.style.display = "none";
 
     document.querySelectorAll(".number_item svg").forEach((svg) => {
@@ -27,7 +38,7 @@ document.querySelectorAll(".number_item").forEach((item) => {
       tick.setAttribute("width", "16");
       tick.setAttribute("height", "16");
       tick.setAttribute("aria-hidden", "true");
-      tick.classList.add("tick"); 
+      tick.classList.add("tick");
 
       let path = document.createElementNS("http://www.w3.org/2000/svg", "path");
       path.setAttribute(
@@ -36,8 +47,8 @@ document.querySelectorAll(".number_item").forEach((item) => {
       );
 
       tick.appendChild(path);
-      item.appendChild(tick); 
-    }  
+      item.appendChild(tick);
+    }
   });
 });
 
@@ -45,4 +56,14 @@ arrowButton.addEventListener("click", () => {
   arrowButton.classList.toggle("arrow-button-active");
   numberList.style.display =
     numberList.style.display === "block" ? "none" : "block";
+});
+
+cartActionBtn.addEventListener("click", () => {
+  let cartBadge = document.createElement("div");
+  cartBadge.classList.add("cart_badge");
+
+  prevBasketValue += Number(amount.value);
+  cartBadge.innerText = prevBasketValue;
+
+  basket.appendChild(cartBadge);
 });
