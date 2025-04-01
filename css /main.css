@@ -1,0 +1,10 @@
+@import url("./utilities/_variables.css");
+@import url("./utilities/_layout.css");
+@import url("./components/_header.css");
+@import url("./components/_slider.css");
+@import url("./components/_review.css");
+@import url("./components/_product_info.css");
+@import url("./components/_shipping_info.css");
+@import url("./media/_desktop.css");
+@import url("./media/_tablet.css");
+@import url("./media/_mobile.css");

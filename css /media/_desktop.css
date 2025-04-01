@@ -1,0 +1,29 @@
+@media only screen and (max-width: 1040px) {
+
+    .five_stars,
+    .new_arrivals {
+      display: none !important;
+    }
+  
+    .navigation_bar {
+      display: none;
+    }
+  }
+  
+  @media only screen and (max-width: 992px) {
+    .container {
+      padding: 0 40px;
+    }
+  
+    .header {
+      font-size: 12px;
+    }
+  
+    .best_sellers {
+      display: none;
+    }
+  
+    .navigation_bar {
+      display: none;
+    }
+  }

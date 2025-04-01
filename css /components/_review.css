@@ -1,0 +1,123 @@
+.review_content {
+    padding: 28px 0 0;
+    width: 100%;
+  }
+  
+  .review_section {
+    gap: 10px;
+    width: 100%;
+    max-width: 1272px;
+  }
+  
+  .review_section_container {
+    gap: 10px;
+    white-space: nowrap;
+  }
+  
+  .review_section,
+  .review_star_feedback,
+  .review_stars {
+    display: flex;
+    align-items: center;
+  }
+  
+  .confirm_section {
+    gap: 10px
+  }
+  
+  .confirm_icon {
+    width: 22px;
+    height: 22px;
+    background-color: var(--secondary-color);
+    border-radius: 4px 0 0 4px;
+    color: var(--text-light);
+  }
+  
+  .confirm_text {
+    color: var(--secondary-color);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background-color: var(--bg-secondary-color);
+  }
+  
+  .review_line {
+    height: 1px;
+    width: 100%;
+    margin-top: 11px;
+    background-color: var(--border-color);
+  }
+  
+  .sort_buttons {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    height: 50px;
+    margin: 10px 0;
+  }
+  
+  .sort_buttons_container {
+    gap: 10px;
+    font-size: 14px;
+  }
+  
+  .sort_buttons_container img {
+    width: 12px;
+    height: 12px;
+  }
+  
+  .sort_buttons_container div {
+    padding: 4px 10px;
+    border: 1px solid var(--text-dark);
+    color: var(--text-dark)2;
+    border-radius: 100px;
+    gap: 4px;
+  }
+  
+  .base_content_title {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .product_summary {
+    margin-top: 6px;
+    font-size: 14px;
+  }
+  
+  .product_summary_container {
+    gap: 4px;
+  }
+  
+  .product_summary_container img {
+    width: 15px;
+    border-radius: 50px;
+  }
+  
+  .sold_amount {
+    color: #7b7676;
+    white-space: nowrap;
+  }
+  
+  .divider {
+    width: 1px;
+    height: 12px;
+    background-color: var(--text-muted);
+    margin: 0 4px;
+    display: inline-block;/
+  }
+  
+  .comment_section {
+    margin-top: 10px;
+  }
+  
+  .commenter_info {
+    gap: 5px;
+  }
+  
+  .commenter_info span {
+    color: var(--text-muted);
+  }
+  
+  .commenter_stars {
+    margin: 5px 0;
+  }
