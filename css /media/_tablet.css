@@ -1,5 +1,4 @@
 @media only screen and (max-width: 768px) {
-
     .header_item {
         font-size: 11px;
         gap: 3px;
@@ -9,16 +8,15 @@
         height: 25px;
     }
 
-    .nav_text h5 {
+    .nav_text h5,
+    .left_content_sidebar,
+    .support,
+    .navigation_bar {
         display: none;
     }
 
     .base_product_content {
         flex-direction: column !important;
-    }
-
-    .left_content_sidebar {
-        display: none;
     }
 
     .header {
@@ -40,20 +38,7 @@
         padding: 0 10px;
     }
 
-    .nav_text h5 {
-        display: none;
-    }
-
     .arrow_right {
         width: 8px;
     }
-
-    .support {
-        display: none;
-    }
-
-    .navigation_bar {
-        display: none;
-    }
-
 }
