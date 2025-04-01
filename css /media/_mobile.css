@@ -5,7 +5,7 @@
   }
 
   .navigation_bar {
-    display: flex;
+    display: flex !important;
     justify-content: space-between;
     align-items: center;
     padding: 0 10px;
