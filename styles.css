@@ -705,6 +705,7 @@ body {
   display: flex;
   background-color: #fb7701;
   border-radius: 50px;
+  transition: all 0.3s ease; 
 }
 
 .add_to_cart_btn {
@@ -717,6 +718,12 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  cursor: pointer;
+}
+
+.cart_action:hover {
+  transform: scale(1.03);
+  opacity: 0.9;
 }
 
 .order_badge {

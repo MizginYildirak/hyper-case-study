@@ -8,8 +8,15 @@ thumbnails.forEach((thumb) => {
   thumb.addEventListener("click", () => {
     const newSrc = thumb.getAttribute("data-full");
     bigImage.src = newSrc;
+
+    thumbnails.forEach((otherThumb) => {
+      otherThumb.style.border = "";
+    });
+
+    thumb.style.border = "2px solid black";
   });
 });
+
 
 document.querySelectorAll(".number_item").forEach((item) => {
   item.addEventListener("click", () => {
