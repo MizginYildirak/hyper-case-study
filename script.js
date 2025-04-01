@@ -3,6 +3,11 @@ const bigImage = document.querySelector("#main-product-image");
 const featuredImage = document.querySelector(".main-image-wrapper");
 const arrowButton = document.querySelector(".arrow_button");
 const numberList = document.querySelector(".number_list");
+const cartActionBtn = document.querySelector(".cart_action");
+const basket = document.querySelector(".basket");
+const amount = document.querySelector("#amount");
+
+let prevBasketValue = 0;
 
 thumbnails.forEach((thumb) => {
   thumb.addEventListener("click", () => {
@@ -17,10 +22,9 @@ thumbnails.forEach((thumb) => {
   });
 });
 
-
 document.querySelectorAll(".number_item").forEach((item) => {
   item.addEventListener("click", () => {
-    document.getElementById("amount").value = item.textContent;
+    amount.value = item.textContent;
     numberList.style.display = "none";
 
     document.querySelectorAll(".number_item svg").forEach((svg) => {
@@ -52,4 +56,14 @@ arrowButton.addEventListener("click", () => {
   arrowButton.classList.toggle("arrow-button-active");
   numberList.style.display =
     numberList.style.display === "block" ? "none" : "block";
+});
+
+cartActionBtn.addEventListener("click", () => {
+  let cartBadge = document.createElement("div");
+  cartBadge.classList.add("cart_badge");
+
+  prevBasketValue += Number(amount.value);
+  cartBadge.innerText = prevBasketValue;
+
+  basket.appendChild(cartBadge);
 });
