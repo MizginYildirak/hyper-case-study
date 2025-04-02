@@ -6,7 +6,7 @@ This project is a pixel-perfect, responsive recreation of a Temu product page, d
 <img width="1641" alt="image" src="https://github.com/user-attachments/assets/5148f34b-d54b-4aa4-b132-139b650de06d" />
 
 ## Project Structure
-
+```
 HYPER/
 │── css/
 │   ├── components/
@@ -28,7 +28,7 @@ HYPER/
 │   ├── slick.js
 │── index.html
 │── README.md
-
+```
 ## Features Implemented
 
 ### UI Components
