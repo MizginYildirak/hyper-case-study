@@ -5,7 +5,6 @@ This project is a pixel-perfect, responsive recreation of a Temu product page, d
 
 <img width="1641" alt="image" src="https://github.com/user-attachments/assets/5148f34b-d54b-4aa4-b132-139b650de06d" />
 
-
 ## Features Implemented
 
 ### UI Components
@@ -25,6 +24,10 @@ This project is a pixel-perfect, responsive recreation of a Temu product page, d
   - Repositioned review section for better UX
   - Fixed cart button for easy access
   - Streamlined information hierarchy
+ 
+### Built With
+- **Slickjs Slider
+- **JQery
 
 ### Technical Highlights
 - **CSS Architecture**: Modular CSS with separate files for components and media queries
@@ -33,12 +36,13 @@ This project is a pixel-perfect, responsive recreation of a Temu product page, d
   - Interactive quantity selection
   - Cart functionality
   - Responsive layout adjustments through JavaScript
+- **Architecture**: Each module has a single responsibility, following the **Single Responsibility Principle (SRP)**.  
 - **Performance Optimizations**: Efficient image loading and minimal dependencies
 
 ## Technologies Used
 - HTML5
-- CSS3 (with CSS Variables for theming)
-- Vanilla JavaScript (no frameworks)
+- CSS3 
+- Vanilla JavaScript 
 - Responsive design techniques
 - Mobile-first approach
 
