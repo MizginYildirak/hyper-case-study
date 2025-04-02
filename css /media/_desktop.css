@@ -9,6 +9,10 @@
   .left_base_content, .right_base_content {
     width: 50%;
   }
+
+  .review_section {
+    flex-wrap: wrap;
+  }
 }
 
 @media only screen and (max-width: 992px) {
