@@ -50,8 +50,8 @@ HYPER/
   - Streamlined information hierarchy
  
 ### Built With
-- **Slickjs Slider
-- **JQuery
+- Slickjs Slider
+- JQuery
 
 ### Technical Highlights
 - **CSS Architecture**: Modular CSS with separate files for components and media queries
