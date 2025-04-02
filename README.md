@@ -64,5 +64,4 @@ This project is a pixel-perfect, responsive recreation of a Temu product page, d
 
 ---
 
-*This project was created as a demonstration of front-end development skills and is intended for portfolio purposes only. It is not affiliated with Temu.*
  
