@@ -82,6 +82,7 @@
   .product_summary {
     margin-top: 6px;
     font-size: 14px;
+    flex-wrap: wrap;
   }
   
   .product_summary_container {
