@@ -5,6 +5,10 @@
   .navigation_bar {
     display: none !important;
   }
+
+  .left_base_content, .right_base_content {
+    width: 50%;
+  }
 }
 
 @media only screen and (max-width: 992px) {
